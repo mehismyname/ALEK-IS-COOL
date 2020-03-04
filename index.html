@@ -6,16 +6,64 @@
     <style>
     .box { width: 250px; height: 250px; margin: 8px; float: right;  cursor: wait;  border: 30px; border-color: rgb(12, 12, 92);}
     </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js" ></script>
+    <script>
+    
+    $(document).ready(function() {
+
+        $('#c').mousedown(function() {
+            $('#wow')[0].play();
+        
+        });
+        $('#a').mousedown(function() {
+            $('#wow')[0].play();
+        
+        });
+        $('#b').mousedown(function() {
+            $('#wow')[0].play();
+        
+        });
+        $('#d').mousedown(function() {
+            $('#error')[0].play();
+        
+        });
+        $('#e').mousedown(function() {
+            $('#error')[0].play();
+        
+        });
+        $('#f').mousedown(function() {
+            $('#error')[0].play();
+        
+        });
+        $('#g').mousedown(function() {
+            $('#error')[0].play();
+        
+        });
+    
+    
+    
+    
+    });
+    
+    
+    
+    </script>
 </head>
 <body>
-<div style="text-align: center;">
-    <div class="box" id="a" style="background-color: blueviolet">
 
+    <audio id="wow">
+        <source src="file:///C:/Users/smith/codebykent/ALEK-IS-COOL/assets/wow.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+    <audio id="error">
+        <source src="file:///C:/Users/smith/codebykent/ALEK-IS-COOL/assets/error.wav" type="audio/wav">
+        Your browser does not support the audio element.
+    </audio>
 
+<div style="text-align: center; width: 100%;">
+<div class="box" id="a" style="background-color: blueviolet">
 </div>
 <div class="box" id="b" style="background-color: blue">
-
-
 </div>
 <div class="box" id="c" style="background-color:violet">
 
@@ -34,7 +82,8 @@
 
 
 </div>
-<div class="box" id="g style="background-color:pink">
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<div class="box" id="g" style="background-color:aqua">
 
 
 </div>
